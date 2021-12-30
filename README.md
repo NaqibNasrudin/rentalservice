@@ -56,7 +56,7 @@ Entity Relationship Diagram<br>
 
 
 Sequence diagram<br>
-![alt text](Sequence Diagram.jpeg)
+![alt text](seqDiag.jpg)
 
 References
 https://laravel.com/docs/8.x/controllers
