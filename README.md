@@ -47,7 +47,8 @@ Models<br>
 A Model is a way for querying data to and from the table in the database. For the purpose of the project, we only have one model which is for the data that is input by the user to be passed to the database.<br>
 
 
-Entity Relationship Diagram
+Entity Relationship Diagram<br>
+![alt text](ERD.png)
 
 
 
