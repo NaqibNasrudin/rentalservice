@@ -32,6 +32,11 @@
     </div>
 <br>
 <br>
+<div class="gallery">
+    <a target="_blank" href="img_1.jpg">
+        <img src="{{URL::asset('/image/new.png')}}" width="600" height="400">
+    </a>
+</div>
 <div class="weather-card">
     <div id="openweathermap-widget-11"></div>
     <script src='//openweathermap.org/themes/openweathermap/assets/vendor/owm/js/d3.min.js'></script>
