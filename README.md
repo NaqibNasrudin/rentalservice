@@ -58,6 +58,9 @@ Entity Relationship Diagram<br>
 Sequence diagram<br>
 ![alt text](seqDiag.jpg)
 
+
+Screenshots<br>
+
 References<br>
 https://laravel.com/docs/8.x/controllers<br>
 https://laravel.com/docs/8.x/routing<br>
