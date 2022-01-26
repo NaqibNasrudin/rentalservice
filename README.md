@@ -82,6 +82,11 @@ Motorcycle<br>
 
 Van<br>
 ![alt text](van.png)
+
+
+Booking<br>
+![alt text](booking.png)
+
 References<br>
 https://laravel.com/docs/8.x/controllers<br>
 https://laravel.com/docs/8.x/routing<br>
