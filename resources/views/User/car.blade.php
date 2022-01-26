@@ -3,6 +3,7 @@
 <link rel="stylesheet" href="{{ asset('css/car.css') }}">
 
 @section('content')
+<div class="bg"><br>
 @if (Route::has('login'))
     <div class="content">
         @auth
@@ -23,9 +24,10 @@
             <td>{{ $vehicle->vehicle_type }}</td>
             <td>{{ $vehicle->vehicle_model }}</td>
         </tr><br>
-        <button><a href="{{ url('booking/'.$vehicle->vehicle_id ) }}">Book Vehicle</a></button>
+        <button class="vehicle"><a href="{{ url('booking/'.$vehicle->vehicle_id ) }}">Book Vehicle</a></button>
         <button><a href="{{ url('owner/'.$vehicle->vehicle_id ) }}">Owner Detail</a></button>
         <br>
     @endforeach
+</div>
+</div>
 @endsection
-
