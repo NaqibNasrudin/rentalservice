@@ -67,6 +67,21 @@ Home<br>
 Login<br>
 ![alt text](login.png)
 
+
+Register<br>
+![alt text](register.png)
+
+
+Car<br>
+![alt text](car.png)
+
+
+Motorcycle<br>
+![alt text](motorcycle.png)
+
+
+Van<br>
+![alt text](van.png)
 References<br>
 https://laravel.com/docs/8.x/controllers<br>
 https://laravel.com/docs/8.x/routing<br>
