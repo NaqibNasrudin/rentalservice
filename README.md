@@ -60,6 +60,12 @@ Sequence diagram<br>
 
 
 Screenshots<br>
+Home<br>
+![alt text](rentalservice.png)
+
+
+Login<br>
+![alt text](login.png)
 
 References<br>
 https://laravel.com/docs/8.x/controllers<br>
