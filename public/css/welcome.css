@@ -1,6 +1,6 @@
 .bg {
     background-color: lightsteelblue;
-    height: 100%;
+    height: fit-content;
 }
 
 .content {
@@ -50,9 +50,15 @@ button {
     background-color: rgb(54, 54, 97);
 }
 
+.gallery {
+    margin: 0 auto;
+    padding: 20px;
+    text-align: center;
+    width: 50%;
+}
+
 .weather-card{
     margin: 0 auto;
-    margin-top: 5%;
     padding: 10px;
     width: 53%;
 }
