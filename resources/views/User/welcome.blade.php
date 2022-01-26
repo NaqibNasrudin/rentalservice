@@ -4,7 +4,9 @@
 
 @section('content')
 <div class="bg">
-@if (Route::has('login'))
+
+    <h2>RENTAL SERVICE</h2>
+    @if (Route::has('login'))
     <div class="content">
         @auth
             <a href="{{ url('/dashboard') }}" class="text-sm text-gray-700 dark:text-gray-500 underline">Home</a>
@@ -16,9 +18,7 @@
         @endif
         @endauth
     </div>
-@endif
-    <h2>RENTAL SERVICE</h2>
-
+    @endif
     <div class="vehicle-type">
         <div class="car">
             <button><a href="/car">CAR</a></button>
