@@ -3,6 +3,7 @@
 <link rel="stylesheet" href="{{ asset('css/motor.css') }}">
 
 @section('content')
+<div class="bg"><br>
 @if (Route::has('login'))
     <div class="content">
         @auth
@@ -28,5 +29,5 @@
         <br>
     @endforeach
 </div>
+</div>
 @endsection
-
