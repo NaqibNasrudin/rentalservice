@@ -33,7 +33,7 @@
 <br>
 <br>
 <div class="gallery">
-    <a target="_blank" href="new.png">
+    <a target="_blank" href="img_new">
         <img src="{{URL::asset('/image/new.png')}}" width="600" height="400">
     </a>
 </div>
