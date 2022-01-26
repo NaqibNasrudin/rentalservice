@@ -1,0 +1,26 @@
+.content {
+    width: 50%;
+    margin: 0 auto;
+    margin-top: 5%;
+    padding: 10px;
+    text-align: center;
+    background-color: lightsteelblue;
+    border-radius: 10px 10px 0px 0px;
+}
+
+.show_vehicle {
+    background-color: rgb(54, 54, 97);
+    width: 50%;
+    margin: 0 auto;
+    text-align: center;
+    padding: 20px;
+    color: white;
+    border-radius: 0px 0px 10px 10px;
+    margin-bottom: 5%;
+}
+
+button {
+    padding: 3px;
+    width: 20%;
+    text-decoration: none;
+}

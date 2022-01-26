@@ -1,0 +1,58 @@
+.bg {
+    background-color: lightsteelblue;
+    height: 100%;
+}
+
+.content {
+    width: 50%;
+    margin: 0 auto;
+    padding: 10px;
+    text-align: center;
+}
+
+h2 {
+    background-color: lightsteelblue;
+    color: rgb(54, 54, 97);
+    border: 2px solid rgb(54, 54, 97);;
+    width: 50%;
+    margin: 0 auto;
+    padding: 20px;
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.vehicle-type{
+    width: 50%;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.car{
+    margin-left: 20%;
+    float: left;
+    width: 20%;
+}
+
+.motor{
+    float: left;
+    width: 20%;
+}
+
+.van{
+    float: left;
+    width: 20%;
+}
+
+button {
+    padding: 10px;
+    width: 100%;
+    text-decoration: none;
+    background-color: rgb(54, 54, 97);
+}
+
+.weather-card{
+    margin: 0 auto;
+    margin-top: 5%;
+    padding: 10px;
+    width: 53%;
+}
