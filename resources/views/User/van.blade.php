@@ -3,6 +3,7 @@
 <link rel="stylesheet" href="{{ asset('css/van.css') }}">
 
 @section('content')
+<div class="bg"><br>
 @if (Route::has('login'))
     <div class="content">
         @auth
@@ -27,6 +28,7 @@
         <button><a href="{{ url('owner/'.$vehicle->vehicle_id ) }}">Owner Detail</a></button>
         <br>
     @endforeach
+</div>
 </div>
 @endsection
 
