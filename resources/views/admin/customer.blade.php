@@ -9,7 +9,7 @@
             <div class="card">
                 <div class="card-header">{{ __('Customer Detail') }}</div>
 
-                <div class="card-body">
+                <div class="card-body"><br>
                     @foreach ($customers as $customer)
                     <tr>
                         <td>First name : {{ $customer->cust_fname }}</td><br>
@@ -18,7 +18,7 @@
                         <td>Phone Number : {{ $customer->cust_phoneno }}</td><br>
                         <td>Date Pickup : {{ $customer->date_start}}</td><br>
                         <td>Date Return : {{ $customer->date_return }}</td><br>
-                    </tr>
+                    </tr><br>
                     @endforeach
                     <button><a href="{{ url('delete/'.$customer->cust_id ) }}">Delete Customer</a></button>
                 </div>
