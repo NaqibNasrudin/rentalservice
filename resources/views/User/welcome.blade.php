@@ -5,7 +5,7 @@
 @section('content')
 <div class="bg">
 
-    <h2>RENTAL SERVICE</h2>
+    <h2 class="title">RENTAL SERVICE</h2>
     @if (Route::has('login'))
     <div class="content">
         @auth
